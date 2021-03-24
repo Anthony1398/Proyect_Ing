@@ -1,0 +1,100 @@
+@font-face{
+    font-family: Proxima Nova;
+    src: url("fuentes/proxima_ssv/Proxima\ Nova\ Alt\ Bold.otf") format("opentype");
+}
+
+body{
+    font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color:#1ED760;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+nav{
+    float: left;
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: #3ead47;
+}
+
+.contenido{
+    padding-top: 80px;
+}
+
+.lorem{
+    color: white;
+}
+
+.encabezado{
+    align-items: center;
+}
+
+.button {
+	font: 700 1em Tahoma, Arial, Verdana, sans-serif;
+	color: #fff; background-color: #59B0E5;
+	border: 1px solid #0074a5;
+	border-top: 1px solid #004370;
+	border-left: 1px solid #004370;
+	cursor: pointer;
+}
+.button {
+	width: auto; /* ie */
+	overflow: visible; /* ie */
+	padding: 3px 8px 2px 6px; /* ie */
+}
+
+.button[type] {
+	padding: 4px 8px 4px 6px; /* firefox */
+}
+
